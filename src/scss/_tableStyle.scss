@@ -1,0 +1,22 @@
+.main__table {
+	width: 1116px;
+	display: grid;
+	grid-template-columns: repeat(4, 204px);
+	row-gap: 79px;
+	column-gap: 100px;
+}
+
+
+.table__pagination {
+	background: transparent;
+	color: #fff;
+	font-family: Roboto;
+	font-size: 24px;
+	line-height: 10px;
+	font-weight: normal;
+	margin: 50px auto;
+	transition: all 0.3s;
+	&:hover {
+		line-height: 15px;
+	}
+}

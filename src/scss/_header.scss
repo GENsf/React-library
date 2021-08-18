@@ -1,0 +1,19 @@
+header {
+	height: 324px;
+	background: #fff url(../img/Book16.jpg);
+	display: flex;
+	flex-direction: column;
+}
+
+.header__div {
+	margin: auto;
+	text-align: center;
+}
+
+.header__div > h1 {
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 59px;
+	color: #fff;
+}
